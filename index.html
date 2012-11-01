@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Agency Snitch</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="css/overlay.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        
+        <!-- start Mixpanel --><script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?
+        g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
+        mixpanel.init("5fa6a28d13c1e36a14803f4d9fa63c12");</script><!-- end Mixpanel -->
+        
+        
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand agency" href="#">AGENCY<span class="snitch">SNITCH</span></a>
+                    <div class="nav-collapse collapse">
+                        <form name="signin" class="navbar-form pull-right">
+                            <input name="email" class="span4" type="text" placeholder="Email">
+                            <button id="mail" class="btn btn-inverse" rel="#black">Sign in</button>
+                        </form>
+                        
+                        
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div class="hero-unit" style="text-align:center; background: none;">
+            		<h1 class="fancy"><span class="agency">Agency</span> <span class="snitch">Snitch</span></h1>
+                <h2 class="fancy" style="font-style: italic">“Choose an Agency as easily as you choose your Socks.” </br> <span style="font-style: normal;  color: #ccc; font-size: 0.5em; font-family: CallunaSans;">— Donna from Marketing</span></h2>
+                <p>All you need to know about the UK’s creative agencies.</p>
+            </div>
+
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="span4">
+               		<img src="./img/read.png" />
+                 <!--	<h2 class="fancy" style="font-style: italic;">“They’re fast, but fast’s not cheap.”</h2>-->
+                 	<p style="text-align: center"><a class="btn btn-success btn-large read" rel="#blank" href="#">Read reviews &raquo;</a></p>
+                 	<p>Know the people you work with.</p>
+                    <p>Agencies ranked across 8 criteria.</p>
+                                    </div>
+                <div class="span4">
+                		<img src="./img/write.jpg" />
+                    <p style="text-align: center"><a class="btn btn-large btn-inverse write" rel="#write" href="#">Write a review &raquo;</a></p>
+                    <p>Spit and burn or praise and dote. Write about your experience of working with an agency.</p>
+                    <p>Fast? Slow? Creative? Mundane?</p>
+                    
+               </div>
+                <div class="span4">
+                		<img src="./img/star.png" />
+                    <p style="text-align: center"><a class="btn btn-info btn-large claim" rel="#blank" href="#">Claim your profiles &raquo;</a></p>
+                    <p>Manage your agency’s profile, promote latest work, update contact your details.</p>
+                    
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; Agency Snitch 2012</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+		<!-- OVERLAYS -->
+		<div class="overlay" id="user">
+			<div>Quick question:
+			<h1>Have you worked with an agency before?</h1>
+			
+			<button id="y" class="btn btn-success btn-large">Yes</button>
+			<button id="n" class="btn btn-danger btn-large">No</button>
+			<button id="d" class="btn btn-inverse btn-large">Dunno</button>
+			</div>		
+		</div>
+		
+		<div class="overlay" id="black">
+			<form class="overlay-form">
+				<h1>You are awesome!</h1>
+				<p>Thanks for trying to sign in, but we can’t let you behind the velvet rope just yet.</p>
+				<p>We can let you know when we’ve got more to share with you <button id="list" class="btn btn-danger btn-large" rel="#write">Send me updates</button></p>
+			</form>
+		</div>
+		
+		<div class="overlay" id="write">
+			<form name="review" class="overlay-form">
+				Start snitching in 144 words or less:
+				<input type="text" class="span8" name="agency" placeholder="Agency Name" />
+			    <textarea name="input" id="review" class="span8" rows="5" type="text" placeholder="This agency is totally the…"></textarea>
+			    <button id="submit" class="btn btn-success" rel="#thanks">Submit</button>
+			</form>
+		</div>
+		
+		<div class="overlay" id="blank">
+			<img src="./img/star.png" />
+			<p>We’re still collecting reviews!</p>
+			<p>Help us out with that: <a class="btn btn-large btn-inverse write" rel="#write" href="#">Write a review &raquo;</a></p>
+		</div>
+		
+		<div class="overlay" id="thanks">
+			<form class="overlay-form">
+				<h1>You are awesome!</h1>
+				<p>Your review will help seed our platform. Leave your email so we can authenticate and invite you to the part down the road.</p>
+				<form name="signin" class="navbar-form pull-right">
+				    <input name="email" class="span4" type="text" placeholder="Email">
+				    <button id="mail" class="btn btn-danger" rel="#twitter">Send me updates</button>
+				</form>
+			</form>
+		</div>
+		
+		<div class="overlay" id="twitter">
+			<a class="twitter-timeline" href="https://twitter.com/BitchOnSnitch" data-widget-id="262626519199916035">Tweets by @BitchOnSnitch</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+        <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vendor/cloudmine.0.9.js"></script>
+
+  <!--      <script type="text/javascript" src="http://use.typekit.net/fmi7tqj.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+    </body>
+</html>

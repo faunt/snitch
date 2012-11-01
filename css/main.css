@@ -1,0 +1,121 @@
+/* type */
+@font-face {
+    font-family: 'CallunaSans';
+    src: url('../fonts/CallunaSans_Regular/CallunaSansRegular-webfont.eot');
+    src: url('../fonts/CallunaSans_Regular/CallunaSansRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CallunaSans_Regular/CallunaSansRegular-webfont.woff') format('woff'),
+         url('../fonts/CallunaSans_Regular/CallunaSansRegular-webfont.ttf') format('truetype'),
+         url('../fonts/CallunaSans_Regular/CallunaSansRegular-webfont.svg#CallunaSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calluna';
+    src: url('../fonts/Calluna_Regular/Calluna-Regular-webfont.eot');
+    src: url('../fonts/Calluna_Regular/Calluna-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Calluna_Regular/Calluna-Regular-webfont.woff') format('woff'),
+         url('../fonts/Calluna_Regular/Calluna-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Calluna_Regular/Calluna-Regular-webfont.svg#CallunaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Calluna';
+    src: url('../fonts/Calluna_Italic/Calluna-It-webfont.eot');
+    src: url('../fonts/Calluna_Italic/Calluna-It-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Calluna_Italic/Calluna-It-webfont.woff') format('woff'),
+         url('../fonts/Calluna_Italic/Calluna-It-webfont.ttf') format('truetype'),
+         url('../fonts/Calluna_Italic/Calluna-It-webfont.svg#CallunaItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'CallunaBold';
+    src: url('../fonts/Calluna_Black/Calluna-Black-webfont.eot');
+    src: url('../fonts/Calluna_Black/Calluna-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Calluna_Black/Calluna-Black-webfont.woff') format('woff'),
+         url('../fonts/Calluna_Black/Calluna-Black-webfont.ttf') format('truetype'),
+         url('../fonts/Calluna_Black/Calluna-Black-webfont.svg#CallunaBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CallunaSansBlack';
+    src: url('../fonts/CallunaSans_Black/CallunaSansBlack-webfont.eot');
+    src: url('../fonts/CallunaSans_Black/CallunaSansBlack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CallunaSans_Black/CallunaSansBlack-webfont.woff') format('woff'),
+         url('../fonts/CallunaSans_Black/CallunaSansBlack-webfont.ttf') format('truetype'),
+         url('../fonts/CallunaSans_Black/CallunaSansBlack-webfont.svg#CallunaSansBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.agency, .snitch {
+	text-transform: uppercase;
+}
+.agency {
+	font-family: CallunaBold;
+}
+.snitch {
+	font-family: CallunaSansBlack;
+}
+.btn-large {
+	font-size: 24px;
+	margin:1em 0;
+}
+
+
+
+body {
+	font-family: CallunaSans;
+}
+.fancy {
+	font-family: Calluna;
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+/* page content */
+
+.container p {
+	font-size: 1.5em;
+	line-height: 1.25em;
+}
+/* SIGN IN */
+.navbar input {
+	background: #333;
+	border: 1px solid #333;
+	color: #fff;
+}
+
+/* OVERLAYS */
+.overlay * {
+	max-width: 75%;
+}
+.overlay {
+	padding: 2em;
+}
+.overlay h1 {
+	text-transform: uppercase;
+}
+
+/*
+.navbar a.brand {
+	background: url('../img/logo.png') no-repeat;
+	text-indent: -999em;
+	min-width: 295px;
+	min-height: 50px;
+	background-size: ;
+}
+
+/* 2x 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+
+	.navbar a.brand {
+		background: url('../img/logo-hi.png') no-repeat;
+		background-size: 295px 50px;
+	}
+}
+
+*/
