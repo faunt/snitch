@@ -50,7 +50,6 @@ $(document).ready(function(){
   	});
   	$("#submit").overlay({
   		mask: '#000', 
-  		effect: 'apple',
   		close: 'button'
   	});
   		  		
